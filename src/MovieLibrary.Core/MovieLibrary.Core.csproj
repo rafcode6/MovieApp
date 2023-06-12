@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+	<Import Project="../base.targets" />
+
+	<ItemGroup>
+		<PackageReference Include="NLog" Version="5.2.0" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\MovieLibrary.Data\MovieLibrary.Data.csproj" />
+		<ProjectReference Include="..\MovieLibrary.Dto\MovieLibrary.Dto.csproj" />
+	</ItemGroup>
+</Project>
